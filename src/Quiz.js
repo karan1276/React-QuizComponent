@@ -27,7 +27,7 @@ class Quiz extends Component {
         ):(
           <QuizQuestion
             quiz_question={quizData.quiz_questions[this.state.quiz_position-1]}
-            showNextQuestion={this.showNextQuestion.bind(this)}></QuizQuestion>
+            showNextQuestionHandler={this.showNextQuestion.bind(this)}></QuizQuestion>
         )}
       </div>
     )
